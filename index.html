@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Weather ☁️</title>
+</head>
+
+<body>
+    <div class="navbar-wrapper">
+
+
+        <div class="navbar">
+            <div class="logo">
+                <img src="imgs/logo-weather.png" alt="weather logo">
+                <h1>Weather</h1>
+            </div>
+
+
+            <div class="nav-items">
+                <ul>
+                    <li id="active"><a href="#">Home</a></li>
+                    <li> <a href="#">News</a></li>
+                    <li> <a href="#">Live cameras</a></li>
+                    <li> <a href="#">Photos</a></li>
+                    <li> <a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="hero-image-wrapper">
+        <h1>Enter a valid location to know it's weather status! 🌡️</h1>
+        <div class="search-field">
+            <input type="text" placeholder="Enter location here ..." id="locationInput">
+            <button type="submit" id="locationButton">Find</button>
+        </div>
+
+
+
+        <div class="weather-cards">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="content">
+                            <div class="day">
+                                <p id="time-text">Day</p>
+                                <p id="time-text-string">Time</p>
+                            </div>
+
+                            <div class="weather">
+                                <p class="weather-location">Location</p>
+                                <p id="today-temp">Temperature</p>
+                                <p id="weather-status">Weather Status</p>
+                                
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="col-md-4">
+                        <div class="content">
+                            <div class="day day-after">
+                                <p id="followingDay">The following day</p>
+                            </div>
+
+                            <div class="weather weather-after">
+                                <p id="followingDayTemp">Temperature</p>
+                                <p id="followingDayStatus">Weather Status</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-md-4">
+                        <div class="content">
+                            <div class="day day-after-after">
+                                <p id="dayAfterAfter">The day after after</p>
+                            </div>
+
+                            <div class="weather weather-after-after ">
+                                <p id="temperatureAfterAfter">Temperature</p>
+                                <p id="statusAfterAfter">Weather Status</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="footer-wrapper">
+
+        <div class="footer">
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-8"> <input type="text" placeholder="Enter your email to subscribe">
+                        <button>Subscribe</button>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="social-icons">
+                            <div>
+                                <i class="fa-brands fa-facebook"></i>
+                            </div>
+                            <div>
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                            <div>
+                                <i class="fa-brands fa-google-plus"></i>
+                            </div>
+                            <div>
+                                <i class="fa-brands fa-pinterest"></i>
+                            </div>
+                         
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+<script src="js/script.js"></script>
+</body>
+
+</html>
