@@ -27,7 +27,7 @@
 }
 
 #today-temp {
-    font-size: 42px;
+    font-size: 25px;
     font-weight: 900;
 }
 
@@ -79,10 +79,10 @@
     width: 95%;
     padding: 1rem;
     border-radius: 15px;
-    background: #1e202b;
+    /* background: #1e202b; */
     border: none;
     outline: none;
-    color: #fff;
+    /* color: #fff; */
 
 
 }
@@ -226,7 +226,8 @@
 }
 
 
-.content .day-after p, .content  .weather-after {
+.content .day-after p,
+.content .weather-after {
     font-size: 28px;
 }
 
